@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+:root{
+    --text: 1.5rem;
+    --head: calc(2rem +5vw);
+    --bgcol: #3975ee;
+    
+    
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.first{
+    min-height: 100vh;
+    background: url("./images/bh.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 1rem;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: 2px solid transparent;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.heading{
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading h2{
+    font-size: 5rem;
+}
+
+.heading ul li a{
+    color: white;
+    text-decoration: none;
+    background: var(--bgcol);
+    font-weight: 900;
+    font-size: var(--text);
+    padding: 0.8rem 1rem;
+    display: block;
+    transition: opacity 250ms linear;
+    border-radius: 10px;
+}
+.heading a:hover{
+    opacity: 0.65;
+}
+.heading ul li{
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+/* .content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-bottom: 10%;
+    width: 50%;
+    height: 10%;
+} */
+.pos img{
+    display: block;
+    border: 5px solid rgb(2, 28, 77);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 10%;
+    border-radius: 10px;
+}
+.content{
+    padding-bottom: 20px;
+}
+.pos-chatbox{
+    position: fixed;
+    top: 90%;
+    left: 78%;
+    right:1%;
+}
+.chatboxlogo{
+    width: 57px;
+    height: 57px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+}
+.chatbox{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+}
+
+.poweredby{
+    text-align: center;
+}
+
+footer{
+    color: rgb(252, 252, 252);
+    background-color: rgba(1, 3, 8, 0.993);
+}

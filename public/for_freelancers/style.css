@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+.bg{
+    min-height: 100vh;
+    background: url("../../images/freelancer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+}
